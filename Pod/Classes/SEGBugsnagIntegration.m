@@ -1,6 +1,5 @@
 #import "SEGBugsnagIntegration.h"
 #import <Bugsnag/Bugsnag.h>
-#import <Analytics/SEGAnalyticsUtils.h>
 #import <Analytics/SEGAnalytics.h>
 
 

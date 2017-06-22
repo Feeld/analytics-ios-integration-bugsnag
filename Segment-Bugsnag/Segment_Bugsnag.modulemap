@@ -1,0 +1,6 @@
+framework module Segment_Bugsnag {
+    umbrella header "Segment-Bugsnag.h"
+
+    export *
+    module * { export * }
+}
