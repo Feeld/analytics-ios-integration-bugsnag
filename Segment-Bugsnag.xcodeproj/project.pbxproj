@@ -14,7 +14,6 @@
 		282784BF1EFC7A5600AF9A32 /* SEGBugsnagIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 282784BB1EFC7A5600AF9A32 /* SEGBugsnagIntegrationFactory.m */; };
 		282784C21EFC7B0D00AF9A32 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282784C11EFC7B0D00AF9A32 /* Analytics.framework */; };
 		282784C51EFC7C3100AF9A32 /* Bugsnag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282784C31EFC7C3100AF9A32 /* Bugsnag.framework */; };
-		282784C61EFC7C3100AF9A32 /* KSCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282784C41EFC7C3100AF9A32 /* KSCrash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		282784BB1EFC7A5600AF9A32 /* SEGBugsnagIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEGBugsnagIntegrationFactory.m; path = Pod/Classes/SEGBugsnagIntegrationFactory.m; sourceTree = SOURCE_ROOT; };
 		282784C11EFC7B0D00AF9A32 /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Analytics.framework; path = Carthage/Build/iOS/Analytics.framework; sourceTree = "<group>"; };
 		282784C31EFC7C3100AF9A32 /* Bugsnag.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bugsnag.framework; path = Carthage/Build/iOS/Bugsnag.framework; sourceTree = "<group>"; };
-		282784C41EFC7C3100AF9A32 /* KSCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSCrash.framework; path = Carthage/Build/iOS/KSCrash.framework; sourceTree = "<group>"; };
 		282784CD1EFC82DD00AF9A32 /* Segment_Bugsnag.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Segment_Bugsnag.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,7 +36,6 @@
 			files = (
 				282784C21EFC7B0D00AF9A32 /* Analytics.framework in Frameworks */,
 				282784C51EFC7C3100AF9A32 /* Bugsnag.framework in Frameworks */,
-				282784C61EFC7C3100AF9A32 /* KSCrash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				282784C31EFC7C3100AF9A32 /* Bugsnag.framework */,
-				282784C41EFC7C3100AF9A32 /* KSCrash.framework */,
 				282784C11EFC7B0D00AF9A32 /* Analytics.framework */,
 			);
 			name = Frameworks;
